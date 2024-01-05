@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import "./App.css";
+import Demo from "./components/Demo";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <div className="app">
         <Hero />
+        <Demo />
       </div>
     </main>
   );
